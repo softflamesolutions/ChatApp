@@ -1,0 +1,2 @@
+# Referenced at D:\softflame projects\whats app clone Source Code\ChatApp\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:31
+-keep class com.softflame.chatsapp.BaseApplication { <init>(...); }

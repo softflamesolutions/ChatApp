@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "10,9,4,3,2,6,5",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "403,350,160,107,55,265,212",
+                        "endColumns": "63,52,51,52,51,62,52",
+                        "endOffsets": "462,398,207,155,102,323,260"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,119,172,224,277,329,392",
+                        "endColumns": "63,52,51,52,51,62,52",
+                        "endOffsets": "114,167,219,272,324,387,440"
+                    }
+                }
+            ]
+        }
+    ]
+}

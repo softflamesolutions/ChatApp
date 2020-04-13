@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="admob_app_id" translatable="false"></string>
+    <string name="admob_banner_id" translatable="false"></string>
+    <string name="app_name" translatable="false">Qup Chat</string>
+    <string name="authority" translatable="false">com.softflame.chatsapp.fileprovider</string>
+
+    <color name="colorAccent">#1A237E</color>
+    <color name="colorPrimary">#4cb2b2</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+
+    <string name="geo_api_key" translatable="false">AIzaSyA0tJaZz2wdvm9rk6fvjcjeSmvczt48Z6k</string>
+    <string name="sinch_app_environment" translatable="false">sandbox.sinch.com</string>
+    <string name="sinch_app_key" translatable="false">62305ea7-fd0f-4add-99e5-100e6d48f79e</string>
+    <string name="sinch_app_secret" translatable="false">5/C2BL/MBE2lJ6YHWSxDHg==</string>
+    <string name="support_email" translatable="false">opuslabsin@gmail.com</string>
+
+</resources>
