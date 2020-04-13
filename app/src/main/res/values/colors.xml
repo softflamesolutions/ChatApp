@@ -34,6 +34,8 @@
     <color name="darkGreen">#FF669900</color>
     <color name="darkOrange">#FFFF8800</color>
     <color name="darkRed">#FFCC0000</color>
+    <color name="start_color">#05ACB5</color>
+    <color name="end_color">#1C73D0</color>
 
     <!-- Chat Activity -->
     <color name="localBackground">#827b92</color>

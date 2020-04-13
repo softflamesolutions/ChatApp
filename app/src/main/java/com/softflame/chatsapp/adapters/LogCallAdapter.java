@@ -25,10 +25,12 @@ public class LogCallAdapter extends RecyclerView.Adapter<LogCallAdapter.MyViewHo
     private Context context;
     private ArrayList<LogCall> dataList;
     private ChatItemClickListener itemClickListener;
+    private Helper helper;
 
     public LogCallAdapter(Context context, ArrayList<LogCall> dataList) {
         this.context = context;
         this.dataList = dataList;
+        helper = new Helper(context);
 
         if (context instanceof ChatItemClickListener) {
             this.itemClickListener = (ChatItemClickListener) context;
@@ -77,7 +79,8 @@ public class LogCallAdapter extends RecyclerView.Adapter<LogCallAdapter.MyViewHo
                 @Override
                 public void onClick(View view) {
                     int pos = getAdapterPosition();
-                    if (pos != -1) {
+
+                    if (pos != -1 && helper.getRoll().equalsIgnoreCase(context.getString(R.string.doctor))) {
                         itemClickListener.placeCall(dataList.get(pos).isVideo(), new User(dataList.get(pos).getUserId(), dataList.get(pos).getUserName(), dataList.get(pos).getUserStatus(), dataList.get(pos).getUserImage(),dataList.get(pos).getRoll()));
                     }
                 }

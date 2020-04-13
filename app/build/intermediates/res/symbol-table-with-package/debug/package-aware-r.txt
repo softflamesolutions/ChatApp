@@ -522,6 +522,7 @@ color dim_foreground_material_light
 color emoji_background
 color emoji_divider
 color emoji_icons
+color end_color
 color error_color_material
 color foreground_material_dark
 color foreground_material_light
@@ -571,6 +572,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color start_color
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -3159,6 +3161,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable parent_gradient
 drawable places_ic_clear
 drawable places_ic_search
 drawable powered_by_google_dark
