@@ -187,6 +187,7 @@ public class FirebaseChatService extends Service {
             }
         }
         return super.onStartCommand(intent, flags, startId);
+        //return START_STICKY;
     }
 
     private void registerMyUpdates() {

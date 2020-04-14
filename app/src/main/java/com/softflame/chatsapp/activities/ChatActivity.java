@@ -1,5 +1,6 @@
 package com.softflame.chatsapp.activities;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -134,6 +135,7 @@ import io.realm.RealmQuery;
 import io.realm.RealmResults;
 
 public class ChatActivity extends BaseActivity implements OnMessageItemClick, MessageAttachmentRecordingViewHolder.RecordingViewInteractor, View.OnClickListener, ImagePickerCallback, FilePickerCallback, AudioPickerCallback, VideoPickerCallback {
+    private static final int REQUEST_CODE_CAMERA = 4;
     private static final int REQUEST_CODE_CONTACT = 1;
     private static final int REQUEST_PLACE_PICKER = 2;
     private static final int REQUEST_CODE_PLAY_SERVICES = 3;
@@ -393,6 +395,11 @@ public class ChatActivity extends BaseActivity implements OnMessageItemClick, Me
         }
         registerUserUpdates();
         checkAndForward();
+
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.CAMERA},REQUEST_CODE_CAMERA);
+        }
+
     }
 
     @SuppressLint("ClickableViewAccessibility")
@@ -902,7 +909,12 @@ public class ChatActivity extends BaseActivity implements OnMessageItemClick, Me
                 break;
             case R.id.callAudio:
                 callIsVideo = false;
-                placeCall();
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
+                    placeCall();
+                }
+                else
+                    Toast.makeText(this,"Please allow "+getString(R.string.app_name)+" to access Camera",Toast.LENGTH_LONG).show();
+
                 break;
             case R.id.end_con:
 
@@ -1043,6 +1055,7 @@ public class ChatActivity extends BaseActivity implements OnMessageItemClick, Me
         message.setSenderImage(userMe.getImage());
         message.setSent(true);
         message.setDelivered(false);
+
         message.setRecipientId(userOrGroupId);
         message.setRecipientGroupIds(group != null ? new ArrayList<MyString>(group.getUserIds()) : null);
         message.setRecipientName(user != null ? user.getName() : group.getName());

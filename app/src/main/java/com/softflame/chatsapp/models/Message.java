@@ -60,6 +60,7 @@ public class Message implements Parcelable, RealmModel {
         date = in.readLong();
         delivered = in.readByte() != 0;
         sent = in.readByte() != 0;
+
         attachmentType = in.readInt();
         attachment = in.readParcelable(Attachment.class.getClassLoader());
         selected = in.readByte() != 0;
