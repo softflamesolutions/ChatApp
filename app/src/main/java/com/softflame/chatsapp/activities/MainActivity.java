@@ -161,6 +161,19 @@ public class MainActivity extends BaseActivity implements HomeIneractor, ChatIte
         fcmIdRef.child(userMe.getId()).setValue(FirebaseInstanceId.getInstance().getToken());
     }
 
+  /*  private void loadAdd() {
+        AdView mAdView = findViewById(R.id.adView);
+
+        String admobAppId = getString(R.string.admob_app_id);
+        String admobBannerId = getString(R.string.admob_banner_id);
+        if (TextUtils.isEmpty(admobAppId) || TextUtils.isEmpty(admobBannerId)) {
+            mAdView.setVisibility(View.GONE);
+        } else {
+            AdRequest adRequest = new AdRequest.Builder().build();
+            mAdView.loadAd(adRequest);
+        }
+    }
+*/
     private void setupViewPager() {
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(new MyUsersFragment(), getString(R.string.tab_title_chat));
