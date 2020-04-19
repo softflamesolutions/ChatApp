@@ -1,10 +1,16 @@
+<<<<<<< Updated upstream
 #Mon Apr 13 20:18:23 IST 2020
 path.2=classes2.dex
 path.1=classes.dex
+=======
+#Sun Apr 19 21:16:55 IST 2020
+path.2=classes3.dex
+path.1=classes2.dex
+>>>>>>> Stashed changes
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-base.1=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.2=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.1=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 base.0=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

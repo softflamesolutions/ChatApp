@@ -1,24 +1,28 @@
 #Internal package file, do not edit.
+<<<<<<< Updated upstream
 #Mon Apr 13 20:18:27 IST 2020
+=======
+#Sun Apr 19 21:16:58 IST 2020
+>>>>>>> Stashed changes
 4.path=classes.dex
 8.set=DEX
-6.path=classes2.dex
+6.path=lib/x86_64/libsinch-android-rtc.so
 0.baseType=DIRECTORY
 10.path=lib/x86/libsinch-android-rtc.so
 5.baseType=DIRECTORY
 1.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
-8.path=classes.dex
+8.path=classes2.dex
 3.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 4.set=DEX
 5.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
-7.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+7.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 11.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 9.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 1.baseType=DIRECTORY
 11.set=NATIVE_RESOURCE
 0.set=NATIVE_RESOURCE
 6.baseType=DIRECTORY
-7.set=NATIVE_RESOURCE
+7.set=DEX
 3.set=NATIVE_RESOURCE
 2.baseType=DIRECTORY
 10.baseType=DIRECTORY
@@ -28,17 +32,17 @@
 10.set=NATIVE_RESOURCE
 5.path=lib/arm64-v8a/libsinch-android-rtc.so
 0.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
-7.path=lib/x86_64/libsinch-android-rtc.so
+7.path=classes3.dex
 11.path=lib/arm64-v8a/librealm-jni.so
 9.path=lib/armeabi-v7a/libsinch-android-rtc.so
-6.set=DEX
+6.set=NATIVE_RESOURCE
 2.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 11.baseType=DIRECTORY
 4.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 3.baseType=DIRECTORY
-6.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+6.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 10.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
-8.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+8.base=D\:\\softflame projects\\whats app clone Source Code\\ChatApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 2.set=NATIVE_RESOURCE
 8.baseType=DIRECTORY
 9.set=NATIVE_RESOURCE
